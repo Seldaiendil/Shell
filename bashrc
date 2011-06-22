@@ -103,3 +103,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 PATH=$PATH:~/bin
+
+# GIT
+function commit() {
+	git commit -a -m "$1"
+	git push origin
+}
