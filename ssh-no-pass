@@ -1,0 +1,8 @@
+#!/bin/bash
+
+host="$1"
+
+ssh-keygen -t rsa
+ssh $host mkdir -p .ssh
+cat ~/.ssh/id_rsa.pub | ssh $host 'cat >> .ssh/authorized_keys'
+ssh $host

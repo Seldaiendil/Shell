@@ -1,0 +1,4 @@
+#!/bin/bash
+
+title=$(echo $(head -n 1 $i))
+mv $i $title.txt

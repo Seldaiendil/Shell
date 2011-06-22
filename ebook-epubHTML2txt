@@ -1,0 +1,38 @@
+#!/bin/bash
+orders=/tmp/epub2txt.sed.$$
+cat <<-FIN > $orders
+s/<[^>]+>//g
+s/\&aacute;/á/g
+s/\&eacute;/é/g
+s/\&iacute;/í/g
+s/\&oacute;/ó/g
+s/\&uacute;/ú/g
+s/\&ntilde;/ñ/g
+s/\&Ntilde;/Ñ/g
+s/\&nbsp;/ /g
+
+s/<!DOCTYPE html PUBLIC "-\/\/W3C\/\/DTD XHTML 1.0 Strict\/\/EN"//g
+s/.*>//g
+s//"/g
+s//"/g
+
+s/\&lt;/</g
+s/\&gt;/>/g
+
+s/^\s+//g
+s/ +/ /g
+/^$/d
+FIN
+chmod 777  $orders
+count=11
+for i in $*
+do
+ extension=$(echo ${i#*.})
+ tmpName=/tmp/epub2txt.$i.$$
+ sed -rf $orders "$i" > $tmpName
+ title="$count - $(head -n 1 $tmpName | tr -d '\n' | tr -d '\r')"
+ mv $tmpName "$title.txt"
+ count=$(($count+1))
+done
+rm $orders
+
