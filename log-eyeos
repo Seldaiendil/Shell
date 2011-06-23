@@ -1,0 +1,3 @@
+#!/bin/bash
+
+tail -f /var/www/eyeos/eyeos/system/conf/libs/log4php/logs/eyeos_$(date +%Y%m%d).log
