@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#sudo bash -c "
+sudo bash -c '
 apt-get remove -y empathy evolution
 apt-get install -y guake vim banshee vlc git subversion meld wine openssh-server build-essential unzip unrar gimp compizconfig-settings-manager
 					mysql-server apache2 php5 pyhton proftpd
@@ -16,10 +16,10 @@ apt-get update
 apt-get install -y rabbitvcs-core rabbitvcs-nautilus rabbitvcs-thunar rabbitvcs-gedit rabbitvcs-cli
 					wakoopa
 
-if [ "`arch`" == 'x86_64' ]; then
-	arch='amd64'
+if [ "`arch`" == "x86_64" ]; then
+	arch="amd64"
 else
-	arch='i386'
+	arch="i386"
 fi
 
 wget -O /tmp/chrome.$$.deb https://dl-ssl.google.com/linux/direct/google-chrome-stable_current_$arch.deb
@@ -31,6 +31,6 @@ dpkg -i /tmp/skype.$$.deb
 wget -O /tmp/dropbox.$$.deb http://linux.dropbox.com/packages/nautilus-dropbox_0.6.7_$arch.deb
 dpkg -i /tmp/dropbox.$$.deb
 
-#"
+'
 
-~/bin/configs/install-configs
+./install-configs
