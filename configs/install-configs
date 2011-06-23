@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cp bashrc ~/.bashrc
+
+sudo cp etc/subversion/config /etc/subversion/
+sudo cp etc/vim/vimrc /etc/vim/
