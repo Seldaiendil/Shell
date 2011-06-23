@@ -4,56 +4,54 @@ apt-get install mysql-server apache2 openoffice.org php5 libapache2-mod-php5 php
 pecl install uploadprogress
 
 cp /etc/php5/apache2/php.ini /etc/php5/apache2/php.ini.bak
-cat <<-FIN >> /etc/php5/apache2/php.ini
+cat <<-EOF >> /etc/php5/apache2/php.ini
+	# EyeOS Configuration
+	extension=uploadprogress.so
+	display_errors = Off
+	max_execution_time = 30
+	max_input_time = 60
+	memory_limit = 128M
+	post_max_size = 200M
+	upload_max_filesize = 100M
+	allow_url_fopen = On
+	disable_functions =
+	safe_mode = Off
+	short_open_tag = On
+	magic_quotes_runtime = Off
+	file_uploads = On
+EOF
 
-# EyeOS configuration
-extension=uploadprogress.so
-display_errors = Off
-max_execution_time = 30
-max_input_time = 60
-memory_limit = 128M
-post_max_size = 200M
-upload_max_filesize = 100M
-allow_url_fopen = On
-disable_functions =
-safe_mode = Off
-short_open_tag = On
-magic_quotes_runtime = Off
-file_uploads = On
-# End EyeOS
-
-FIN
+a2enmod rewrite
 
 cp /etc/apache2/sites-available/default /etc/apache2/sites-available/default.bak
-cat <<-FIN >> /etc/apache2/sites-available/default
-	<Directory '/var/www/eyeos'>
+cat <<-EOF >> /etc/apache2/sites-available/default
+	# Move me before </VirtualHost>
+	<Directory /var/www/eyeos>
 		Options -Indexes FollowSymLinks
 		AllowOverride all
 		Order deny,allow
 		Allow from all
 	</Directory>
-FIN
-vi /etc/apache2/sites-available/default
+EOF
 
-a2enmod rewrite
+gedit /etc/apache2/sites-available/default
 
-cat <<-FIN >> /tmp/sql.$$
-CREATE DATABASE 'eyeos';
-GRANT ALL ON 'eyeos'.* TO 'eyeos'@'localhost' IDENTIFIED BY 'eyeos';
-flush privileges;
-FIN
+read -s -p "MySQL root Password: " pass
+echo ''
+read -s -p "Set MySQL eyeos Password: " eye
+mysql -uroot -p$pass -e 'CREATE DATABASE eyeos;'
+mysql -uroot -p$pass -e "GRANT ALL ON eyeos.* TO 'eyeos'@'localhost' IDENTIFIED BY '$eye';"
+mysql -uroot -p$pass -e 'FLUSH PRIVILEGES'
 
-mysql -u root -e /tmp/sql.$$ -p
-
-mkdir /tmp/eyeos.$$
-cd /tmp/eyeos.$$
-wget http://garr.dl.sourceforge.net/project/eyeos/eyeos2/eyeos-2.5.tar.gz
+mkdir /var/www/eyeos
+cd /var/www/eyeos
+wget http://sunet.dl.sourceforge.net/project/eyeos/eyeos2/eyeos-2.5.tar.gz
 tar -xzf eyeos-2.5.tar.gz
-rm eyeos-2.5.tar.gz
-mv /tmp/eyeos.$$ /var/www/eyeos
-chown -R www-data.www-data /var/www/eyeos
-chmod -R 755 /var/www/eyeos
-find -type f -exec chmod 644 {} \;
+mv eyeos-2.5.tar.gz /root
+chown -R eyeos.www-data .
+chmod -R 660 .
+find . -type d -exec chmod 770 {} \;
 
 /etc/init.d/apache2 restart
+
 
