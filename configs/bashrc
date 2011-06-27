@@ -104,6 +104,10 @@ fi
 
 PATH=$PATH:~/bin
 
+if [ -f ~/.bashrc.local ]; then
+	. ~/.bashrc.local
+fi
+
 alias size='du -hs *'
 
 # GIT

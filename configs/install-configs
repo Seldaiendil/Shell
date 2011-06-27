@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cp bashrc ~/.bashrc
+path="$(dirname $0)"
 
-sudo cp etc/subversion/config /etc/subversion/
-sudo cp etc/vim/vimrc /etc/vim/
+cp $path/bashrc ~/.bashrc
+
+sudo cp $path/etc/subversion/config /etc/subversion/
+sudo cp $path/etc/vim/vimrc /etc/vim/
