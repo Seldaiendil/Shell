@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo bash -c '
+
 apt-get remove -y empathy evolution
 apt-get install -y guake vim banshee vlc git subversion meld wine openssh-server build-essential unzip unrar gimp compizconfig-settings-manager
 					mysql-server apache2 php5 pyhton proftpd
@@ -35,4 +36,21 @@ dpkg -i /tmp/dropbox.$$.deb
 
 '
 
-./install-configs
+git config --global user.name "Seldaiendil"
+git config --global user.email "seldaiendil2@gmail.com"
+
+ssh-keygen -t rsa -C "seldaiendil2@gmail.com"
+
+echo "\n\nPublic key must be added to github:"
+gedit ~/.ssh/id_rsa.pub
+
+if [ ! -d "~/bin" ]
+then
+	git clone "git@github.com:Seldaiendil/Shell.git" "~/bin"
+fi
+if [ ! -d "~/Source" ]
+then
+	git clone "git@github.com:Seldaiendil/General.git" "~/Source"
+fi
+
+~/bin/configs/install-configs
