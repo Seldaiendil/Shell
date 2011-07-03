@@ -22,6 +22,8 @@ else
 	arch="i386"
 fi
 
+# Google Chrome dependences
+apt-get install -y libcurl3 libnspr4-0d libnss3-1d
 wget -O /tmp/chrome.$$.deb https://dl-ssl.google.com/linux/direct/google-chrome-stable_current_$arch.deb
 dpkg -i /tmp/chrome.$$.deb
 
