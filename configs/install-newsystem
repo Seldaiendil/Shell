@@ -46,11 +46,11 @@ gedit ~/.ssh/id_rsa.pub
 
 if [ ! -d "~/bin" ]
 then
-	git clone "git@github.com:Seldaiendil/Shell.git" "~/bin"
+	git clone "git@github.com:Seldaiendil/Shell.git" "$HOME/bin"
 fi
 if [ ! -d "~/Source" ]
 then
-	git clone "git@github.com:Seldaiendil/General.git" "~/Source"
+	git clone "git@github.com:Seldaiendil/General.git" "$HOME/Source"
 fi
 
 ~/bin/configs/install-configs

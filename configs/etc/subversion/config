@@ -144,9 +144,9 @@ diff-cmd = meld
 # *.txt = svn:eol-style=native;svn:keywords=Author Date Id Rev URL;
 # *.png = svn:mime-type=image/png
 # *.jpg = svn:mime-type=image/jpeg
- *.js = svn:eol-style=LF
- *.css = svn:eol-style=LF
- *.html = svn:eol-style=LF
- *.sh = svn:eol-style=LF
+# *.js = svn:eol-style=LF
+# *.css = svn:eol-style=LF
+# *.html = svn:eol-style=LF
+# *.sh = svn:eol-style=LF
 # Makefile = svn:eol-style=native
 
