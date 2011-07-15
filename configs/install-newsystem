@@ -8,6 +8,9 @@ apt-get install -y guake vim banshee vlc git subversion meld wine openssh-server
 #					monodevelop monodevelop-database monodevelop-debugger-gdb monodevelop-debugger-mdb monodevelop-java monodevelop-nunit monodevelop-python monodevelop-vala monodevelop-versioncontrol
 
 add-apt-repository ppa:rabbitvcs/ppa
+add-apt-repository ppa:shantzu/clipit
+
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 521767F1
 
 echo deb http://apt.wakoopa.com all main > /etc/apt/sources.list.d/wakoopa.list
 wget -O - http://apt.wakoopa.com/pubkey.txt | sudo apt-key add -
@@ -16,6 +19,7 @@ apt-get update
 
 apt-get install -y rabbitvcs-core rabbitvcs-nautilus rabbitvcs-thunar rabbitvcs-gedit rabbitvcs-cli
 					wakoopa
+					clipit
 
 if [ "`arch`" == "x86_64" ]; then
 	arch="amd64"
