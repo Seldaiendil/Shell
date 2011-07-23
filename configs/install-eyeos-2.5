@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ "`whoami`" != "root" ]
+then
+	echo "This script must be executed as root"
+	exit
+fi
+
 apt-get install mysql-server apache2 openoffice.org php5 libapache2-mod-php5 php5-gd php5-mysql php5-imagick libimage-exiftool-perl php5-sqlite php-pear php5-dev python-uno php5-mcrypt php5-curl zip unzip imagemagick ghostscript build-essential
 pecl install uploadprogress
 

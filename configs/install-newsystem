@@ -3,7 +3,7 @@
 sudo bash -c '
 
 apt-get remove -y empathy evolution
-apt-get install -y guake vim banshee vlc git subversion meld wine openssh-server build-essential unzip unrar gimp compizconfig-settings-manager
+apt-get install -y guake vim banshee vlc git subversion meld wine openssh-server build-essential unzip unrar gimp compizconfig-settings-manager htop
 					mysql-server apache2 php5 pyhton proftpd
 #					monodevelop monodevelop-database monodevelop-debugger-gdb monodevelop-debugger-mdb monodevelop-java monodevelop-nunit monodevelop-python monodevelop-vala monodevelop-versioncontrol
 
