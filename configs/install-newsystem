@@ -9,6 +9,7 @@ apt-get install -y guake vim banshee vlc git subversion meld wine openssh-server
 
 add-apt-repository ppa:rabbitvcs/ppa
 add-apt-repository ppa:shantzu/clipit
+add-apt-repository ppa:webupd8team/sublime-text-2
 
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 521767F1
 
@@ -18,6 +19,7 @@ wget -O - http://apt.wakoopa.com/pubkey.txt | sudo apt-key add -
 apt-get update
 
 apt-get install -y rabbitvcs-core rabbitvcs-nautilus rabbitvcs-thunar rabbitvcs-gedit rabbitvcs-cli
+					sublime-text-2
 					wakoopa
 					clipit
 
