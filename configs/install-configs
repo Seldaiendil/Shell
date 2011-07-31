@@ -2,6 +2,7 @@
 
 path="$(dirname $0)"
 
+cp $path/home/user/.config/sublime-text-2/Packages/User/Global.sublime-settings ~/.config/sublime-text-2/Packages/User/Global.sublime-settings 
 cp $path/bashrc ~/.bashrc
 
 sudo cp $path/etc/subversion/config /etc/subversion/
