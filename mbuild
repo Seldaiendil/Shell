@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd /var/www/meyeos/devtools/EyeOS/
+
+chmod +x generate.py
+
+./generate.py mbuild
+./generate.py mlint
+
