@@ -3,22 +3,27 @@
 sudo bash -c '
 
 apt-get remove -y empathy evolution
-apt-get install -y guake vim banshee vlc git subversion meld wine openssh-server build-essential unzip unrar gimp compizconfig-settings-manager htop
+apt-get install -y  guake vim git-core subversion meld wine openssh-server unzip unrar htop
+					build-essential pkg-config curl gcc g++
+					banshee vlc gimp compizconfig-settings-manager
 					mysql-server apache2 php5 pyhton proftpd
 #					monodevelop monodevelop-database monodevelop-debugger-gdb monodevelop-debugger-mdb monodevelop-java monodevelop-nunit monodevelop-python monodevelop-vala monodevelop-versioncontrol
 
-add-apt-repository ppa:rabbitvcs/ppa
+#add-apt-repository ppa:rabbitvcs/ppa
 add-apt-repository ppa:shantzu/clipit
 add-apt-repository ppa:webupd8team/sublime-text-2
 
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 521767F1
 
-echo deb http://apt.wakoopa.com all main > /etc/apt/sources.list.d/wakoopa.list
+echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" >> /etc/apt/sources.list.d/nodejs.list
+apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+echo "deb http://apt.wakoopa.com all main" > /etc/apt/sources.list.d/wakoopa.list
 wget -O - http://apt.wakoopa.com/pubkey.txt | sudo apt-key add -
 
 apt-get update
 
-apt-get install -y rabbitvcs-core rabbitvcs-nautilus rabbitvcs-thunar rabbitvcs-gedit rabbitvcs-cli
+apt-get install -y  nodejs
+#					rabbitvcs-core rabbitvcs-nautilus rabbitvcs-thunar rabbitvcs-gedit rabbitvcs-cli 
 					sublime-text-2
 					wakoopa
 					clipit
@@ -29,18 +34,35 @@ else
 	arch="i386"
 fi
 
+cd /tmp
+
 # Google Chrome dependences
 apt-get install -y libcurl3 libnspr4-0d libnss3-1d
-wget -O /tmp/chrome.$$.deb https://dl-ssl.google.com/linux/direct/google-chrome-stable_current_$arch.deb
-dpkg -i /tmp/chrome.$$.deb
+wget -O chrome.$$.deb https://dl-ssl.google.com/linux/direct/google-chrome-stable_current_$arch.deb
+dpkg -i chrome.$$.deb
 
-wget -O /tmp/skype.$$.deb http://download.skype.com/linux/skype-ubuntu_2.2.0.35-1_$arch.deb
-dpkg -i /tmp/skype.$$.deb
+wget -O skype.$$.deb http://download.skype.com/linux/skype-ubuntu_2.2.0.35-1_$arch.deb
+dpkg -i skype.$$.deb
 
-wget -O /tmp/dropbox.$$.deb http://linux.dropbox.com/packages/nautilus-dropbox_0.6.7_$arch.deb
-dpkg -i /tmp/dropbox.$$.deb
+wget -O dropbox.$$.deb http://linux.dropbox.com/packages/nautilus-dropbox_0.6.7_$arch.deb
+dpkg -i dropbox.$$.deb
+
+# Install nodejs
+wget -O node.$$.tar.gz http://nodejs.org/dist/node-v0.4.12.tar.gz
+tar -zxf node.&&.tar.gz
+cd node.$$
+./configure && make && make install
+
+# npm
+curl http://npmjs.org/install.sh | sh
 
 '
+
+npm install n
+npm install jsdom
+npm install http-agent
+npm install cli-color
+npm install async
 
 git config --global user.name "Seldaiendil"
 git config --global user.email "seldaiendil2@gmail.com"

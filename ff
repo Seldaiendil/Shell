@@ -1,3 +1,16 @@
 #!/bin/bash
 
-grep --color=auto -rin --exclude-dir='.svn' --exclude-dir='.git' "$1" .
+grep \
+	--color=auto \
+	-rinF \
+	$2 \
+	--exclude='flowplayer*' \
+	--exclude='*jquery*' \
+	--exclude='*.min*' \
+	--exclude-dir='tinymce' \
+	--exclude-dir='tiny_mce' \
+	--exclude-dir='webmail' \
+	--exclude-dir='.svn' \
+	--exclude-dir='.git' \
+	"$1" \
+	.

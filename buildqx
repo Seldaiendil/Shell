@@ -1,6 +1,0 @@
-#!/bin/bash
-
-cd /var/www/professional/devtools/qooxdoo-1.5-sdk/framework
-
-chmod +x generate.py
-./generate.py build
