@@ -1,15 +1,12 @@
 #!/bin/bash
 
-log="/tmp/install.$$.log"
-
-
 echo 'Executing sudo...'
 sudo bash -c '
-log="/tmp/install.$$.log"
+log="/tmp/install.sudo.$$.log"
 
 
 echo "Uninstalling unwanted packages..."
-apt-get remove -y empathy evolution > log
+apt-get remove -y empathy evolution > $log
 
 
 echo "Installing packages..."
@@ -18,38 +15,30 @@ apt-get install -y  build-essential pkg-config curl gcc g++ \
 					unzip unrar \
 					banshee vlc gimp compizconfig-settings-manager \
 					mysql-server apache2 php5 python proftpd \
-					> log
-					# monodevelop monodevelop-database monodevelop-debugger-gdb monodevelop-debugger-mdb monodevelop-java monodevelop-nunit monodevelop-python monodevelop-vala monodevelop-versioncontrol \
+					> $log
 
 
 echo "Adding repositories..."
 
-# echo "\t Rabbit VCS"
-# add-apt-repository ppa:rabbitvcs/ppa > log
+echo "	 Sublime Text"
+add-apt-repository -y ppa:webupd8team/sublime-text-2 2> $log > $log
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 521767F1 2> $log > $log
 
-echo "\t Clipit"
-add-apt-repository ppa:shantzu/clipit > log
-
-echo "\t Sublime Text"
-add-apt-repository ppa:webupd8team/sublime-text-2 > log
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 521767F1 > log
-
-echo "\t MongoDB"
+echo "	 MongoDB"
 echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" > /etc/apt/sources.list.d/nodejs.list
-apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10 > log
+apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10 2> $log > $log
 
-echo "\t Wakoopa"
+echo "	 Wakoopa"
 echo "deb http://apt.wakoopa.com all main" > /etc/apt/sources.list.d/wakoopa.list
-wget -O - http://apt.wakoopa.com/pubkey.txt | sudo apt-key add - > log
+wget -O - http://apt.wakoopa.com/pubkey.txt 2> $log | sudo apt-key add - > $log
 
 
-echo "Updating packages..."
-apt-get update > log
+echo "Updating aptitude..."
+apt-get update > $log
 
 
 echo "Installing external packages..."
-apt-get install -y  nodejs sublime-text-2 wakoopa clipit > log
-#					rabbitvcs-core rabbitvcs-nautilus rabbitvcs-thunar rabbitvcs-gedit rabbitvcs-cli 
+apt-get install -y  nodejs sublime-text-2 wakoopa clipit > $log
 
 
 if [ "`arch`" == "x86_64" ]; then
@@ -61,66 +50,63 @@ cd /tmp
 
 
 echo "Installing Google Chrome..."
-echo "\t Dependences"
-apt-get install -y libcurl3 libnspr4-0d libnss3-1d > log
-echo "\t Downloading"
-wget -O chrome.$$.deb https://dl-ssl.google.com/linux/direct/google-chrome-stable_current_$arch.deb > log
-echo "\t Installing"
-dpkg -i chrome.$$.deb > log
+echo "	 Dependences"
+apt-get install -y libcurl3 libnspr4-0d libnss3-1d > $log
+echo "	 Downloading"
+wget -O chrome.$$.deb https://dl-ssl.google.com/linux/direct/google-chrome-stable_current_$arch.deb 2> $log > $log
+echo "	 Installing"
+dpkg -i chrome.$$.deb > $log
 
 
 echo "Installing Skype..."
-wget -O skype.$$.deb http://download.skype.com/linux/skype-ubuntu_2.2.0.35-1_$arch.deb > log
-dpkg -i skype.$$.deb > log
+wget -O skype.$$.deb http://download.skype.com/linux/skype-ubuntu_2.2.0.35-1_$arch.deb 2> $log > $log
+dpkg -i skype.$$.deb > $log
 
 
 echo "Installing Dropbox..."
-wget -O dropbox.$$.deb http://linux.dropbox.com/packages/nautilus-dropbox_0.6.7_$arch.deb > log
-dpkg -i dropbox.$$.deb > log
+wget -O dropbox.$$.deb http://linux.dropbox.com/packages/nautilus-dropbox_0.6.7_$arch.deb 2> $log > $log
+dpkg -i dropbox.$$.deb > $log
 
 
 echo "Installing NodeJS..."
-wget -O node.$$.tar.gz http://nodejs.org/dist/node-v0.4.12.tar.gz > log
-tar -zxf node.&&.tar.gz > log
+wget -O node.$$.tar.gz http://nodejs.org/dist/node-v0.4.12.tar.gz 2> $log > $log
+tar -zxf node.$$.tar.gz > $log
 cd node.$$
-./configure && make && make install > log
+./configure && make && make install > $log
 
-echo "\t Node Package Manager"
-curl http://npmjs.org/install.sh | sh > log
+echo "	 Node Package Manager"
+curl http://npmjs.org/install.sh | sh 2> $log > $log
 '
 
-echo "\t Modules"
-npm install n > log
-npm install jsdom > log
-npm install http-agent > log
-npm install cli-color > log
-npm install async > log
+log="/tmp/install.$$.log"
 
 
 echo 'Configuring git...'
-git config --global user.name "Seldaiendil" > log
-git config --global user.email "seldaiendil2@gmail.com" > log
+git config --global user.name "Seldaiendil" > $log
+git config --global user.email "seldaiendil2@gmail.com" > $log
 
 
 rsa=~/.ssh/id_rsa.pub
 if [ ! -f $rsa ]
 then
 	echo 'Generating RSA...'
-	ssh-keygen -t rsa -C "seldaiendil2@gmail.com" > log
+	ssh-keygen -t rsa -C "seldaiendil2@gmail.com" > $log
 fi
 
 
-echo 'Public key must be added to github:'
+echo -e 'Public key must be added to github:\n'
 cat $rsa
-gedit $rsa > log
+gedit $rsa > $log
+echo -e '\nPress [Enter] when done.'
+read
 
 
-if [ ! -d "~/bin" ]
+if [ ! -d ~/bin ]
 then
 	echo 'Cloning executable repository...'
 	git clone "git@github.com:Seldaiendil/Shell.git" "$HOME/bin"
 fi
-if [ ! -d "~/Source" ]
+if [ ! -d ~/Source ]
 then
 	echo 'Cloning source code repository...'
 	git clone "git@github.com:Seldaiendil/General.git" "$HOME/Source"
