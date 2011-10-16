@@ -76,6 +76,12 @@ cd node.$$
 
 echo "	 Node Package Manager"
 curl http://npmjs.org/install.sh | sh 2> $log > $log
+
+echo "Installing Dart"
+apt-get install -y libssl0.9.8
+wget -O dart.$$.tgz http://www.dartforce.com/static/software/dart_bin.tgz 2> $log > $log
+tar -xf dart.$$.tgz
+mv dart_bin /usr/bin/dart
 '
 
 log="/tmp/install.$$.log"
