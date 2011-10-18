@@ -22,3 +22,5 @@ function install() {
 install /etc/subversion config
 install /etc/vim vimrc
 install /usr/share/vim/vim73/syntax dart.vim
+
+sudo bash -c "cat $path/usr/share/vim/vim73/filetype.dart.vim >> /usr/share/vim/vim73/filetype.vim"
