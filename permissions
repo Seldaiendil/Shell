@@ -12,5 +12,10 @@ sudo chmod 660 -R $path
 echo "Setting directories permissions to 770..."
 sudo find -type d -exec chmod 770 {} \;
 
+if [ -f devtools/build.sh ]
+then
+	chmod +x devtools/build.sh
+fi
+
 echo "Done"
 

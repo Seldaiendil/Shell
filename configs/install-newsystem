@@ -15,6 +15,7 @@ apt-get install -y  build-essential pkg-config curl gcc g++ \
 					unzip unrar \
 					banshee vlc gimp compizconfig-settings-manager \
 					mysql-server apache2 php5 python proftpd \
+					monodevelop monodevelop-database monodevelop-debugger-gdb monodevelop-debugger-mdb monodevelop-java monodevelop-nunit monodevelop-python monodevelop-vala monodevelop-versioncontrol \
 					> $log
 
 
