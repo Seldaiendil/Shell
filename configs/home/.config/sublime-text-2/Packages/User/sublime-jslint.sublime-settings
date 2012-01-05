@@ -1,0 +1,17 @@
+{
+    // Options pass to jslint.
+    "jslint_options": "--browser --devel --nomen --plusplus --sloppy --vars --maxerr 50 --indent 4",
+    //"/*jslint maxerr: 50, sloppy: true, vars: true, nomen: true, plusplus: true */",
+
+    // Ignore errors, regex.
+    "ignore_errors":
+    [
+        "'eyeos' was used before it was defined.",
+        "'qx' was used before it was defined.",
+        "Move 'var' declarations to the top of the function.",
+        "Expected exactly one space between 'function' and '"
+    ],
+
+    // run jslint on save.
+    "run_on_save": true
+}

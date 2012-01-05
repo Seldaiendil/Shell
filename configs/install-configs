@@ -3,8 +3,7 @@
 path="$(dirname $0)"
 
 mkdir -p  ~/.config/sublime-text-2/Packages/User/
-cp $path/home/user/.config/sublime-text-2/Packages/User/Global.sublime-settings ~/.config/sublime-text-2/Packages/User/Global.sublime-settings 
-cp $path/bashrc ~/.bashrc
+cp $path/home/* ~/
 
 function install() {
 	target=$1

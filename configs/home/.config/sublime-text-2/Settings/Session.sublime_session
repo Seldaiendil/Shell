@@ -1,0 +1,1610 @@
+{
+	"folder_history":
+	[
+	],
+	"last_window_id": 11,
+	"settings":
+	{
+		"new_window_height": 1025.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"else",
+						"else"
+					],
+					[
+						"_promiseA",
+						"_promiseArgs"
+					],
+					[
+						"_promise",
+						"_promise"
+					],
+					[
+						"waiting",
+						"waiting"
+					],
+					[
+						"getL",
+						"getLogger"
+					],
+					[
+						"getIn",
+						"getInstance"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 283.0,
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Discover Packages"
+					],
+					[
+						"Install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package",
+						"Package Control: List Packages"
+					],
+					[
+						"Format",
+						"Format: Javascript"
+					],
+					[
+						"git Pull",
+						"Git: Pull"
+					],
+					[
+						"JSLint",
+						"Preferences: JSLint Settings – Default"
+					],
+					[
+						"Lint",
+						"Preferences: JSLint Settings – User"
+					],
+					[
+						"lint",
+						"JSLint: Run JSLint"
+					],
+					[
+						"Forma	",
+						"Format: Javascript"
+					],
+					[
+						"jas",
+						"Format: Javascript"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Align",
+						"Preferences: Alignment Key Bindings – Default"
+					],
+					[
+						"setting",
+						"Preferences: User File Settings"
+					],
+					[
+						"Settings",
+						"Preferences: Default File Settings"
+					],
+					[
+						"settings",
+						"Preferences: Default Global Settings"
+					],
+					[
+						"Setting",
+						"Preferences: User Global Settings"
+					],
+					[
+						"Indenta",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"indenta",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"Indent",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"Tabs",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"spaces",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"Spaces",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"indentation",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"tabs",
+						"View: Toggle Tabs"
+					],
+					[
+						"convert",
+						"Indentation: Convert to Tabs"
+					]
+				],
+				"width": 593.0
+			},
+			"console":
+			{
+				"height": 129.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": true,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/var/www/eyeos/eyeos/apps/eyedocs/libs/format.js",
+				"/var/www/eyeos/eyeos/apps/clientservicefilesystem/clientservicefilesystem.php",
+				"/var/www/eyeos/eyeos/apps/clientservicefilesystem/clientservicefilesystem.js",
+				"/var/www/eyeos/eyeos/system/Frameworks/Applications/Executables/EyeosModules/FileSystemExecModule.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/controller/Files.js",
+				"/var/www/eyeos/eyeos/apps/files/eyeos.files.ViewManager.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/controller/Base.js",
+				"/home/eyeos/.config/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+				"/var/www/eyeos/eyeos/apps/clientservicefilesystem/info.xml",
+				"/home/eyeos/Escritorio/permissions.txt",
+				"/var/www/eyeos/eyeos/apps/files/eyeos.files.IconViewItem.js",
+				"/var/www/eyeos/eyeos/apps/files/eyeos.files.IconView.js",
+				"/var/www/eyeos/eyeos/apps/files/files.js",
+				"/var/www/eyeos/eyeos/apps/clientservicefilesystem/permissions.php",
+				"/var/www/eyeos/eyeos/apps/clientservicefilesystem/EyePath.php",
+				"/var/www/eyeos/eyeos/extern/deprecated-js/eyeos/files/File.js",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/framework/source/class/qx/event/handler/DragDrop.js",
+				"/home/eyeos/Descargas/WorkgroupFileSecurityHandler.php",
+				"/var/www/eyeos/eyeos/apps/permissions/permissions.php",
+				"/var/www/eyeos/eyeos/system/kernel/services/Security/implementations/Handlers/WorkgroupFileSecurityHandler.php",
+				"/home/eyeos/Escritorio/test.html",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/view/Base.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/mvc/View.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/FilesSelection.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/mvc/Controller.js",
+				"/home/eyeos/Source/Javascript/selchi/specs/core/core.test.js",
+				"/home/eyeos/Source/Javascript/selchi/src/classes/force.js",
+				"/home/eyeos/Source/Javascript/seldoo/specs/extensions.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/fs/Path.js",
+				"/var/www/eyeos/eyeos/users/matias/files/Desktop/New File manager.lnk",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/fs/Inode.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/fs/File.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/fs/Link.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/Model.js",
+				"/var/www/eyeos/eyeos/apps/init/init.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/basic/Label.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/FileManager.js",
+				"/var/www/eyeos/eyeos/apps/filesnew/filesnew.js",
+				"/var/www/eyeos/eyeos/apps/filesnew/window/View.js",
+				"/var/www/eyeos/eyeos/apps/filesnew/window/Controller.js",
+				"/var/www/eyeos/eyeos/extern/deprecated-js/eyeos/ui/widgets/Breadcrumb.js",
+				"/var/www/eyeos/eyeos/extern/deprecated-js/eyeos.js",
+				"/var/www/eyeos/eyeos/apps/session/session.js",
+				"/var/www/eyeos/eyeos/apps/servicefs/servicefs.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/FilesSelection.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/fs/Directory.js",
+				"/var/www/eyeos/eyeos/system/kernel/services/MMap/implementations/MMapGetApp.php",
+				"/var/www/eyeos/eyeos/system/Frameworks/Applications/interfaces.php",
+				"/var/www/eyeos/eyeos/apps/session/session.php",
+				"/var/www/session/eyeos/apps/session/session.php",
+				"/var/www/session/eyeos/apps/init/init.php",
+				"/var/www/eyeos/eyeos/extern/deprecated-js/eyeos/ui/Window.js",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/framework/source/class/qx/io/remote/RequestQueue.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/Server.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/view/List.js",
+				"/var/www/eyeos/eyeos/apps/servicefs/permissions.php",
+				"/var/www/eyeos/eyeos/apps/login/login.js",
+				"/var/www/eyeos/eyeos/apps/desktop/desktop.js",
+				"/var/www/eyeos/eyeos/apps/init/init.js",
+				"/var/www/eyeos/eyeos/system/Frameworks/Applications/Executables/EyeosApplicationExecutable.php",
+				"/var/www/eyeos/eyeos/apps/login/login.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/Execute.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/Call.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/Petition.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/Queue.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/GroupCall.js",
+				"/var/www/eyeos/eyeos/apps/openlink/openlink.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/core/Promise.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/IPetition.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/Execute",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/framework/source/class/qx/core/Property.js",
+				"/var/www/eyeos/eyeos/apps/adminpanel/Controller.js",
+				"/var/www/eyeos/eyeos/apps/adminpanel/userPanel/ConcreteUserEditContainer.js",
+				"/var/www/eyeos/eyeos/apps/adminpanel/adminpanel.php",
+				"/home/eyeos/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
+				"/home/eyeos/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+				"/home/eyeos/.config/sublime-text-2/Packages/Default/Global.sublime-settings",
+				"/home/eyeos/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+				"/var/www/eyeos/eyeos/system/Frameworks/Applications/Executables/EyeosModules/WorkgroupsExecModule.php",
+				"/var/www/eyeos/eyeos/apps/topmenu/topmenu.js",
+				"/var/www/eyeos/eyeos/apps/topmenu/topmenu.php",
+				"/var/www/eyeos/eyeos/apps/servicefs/EyePath.php",
+				"/home/bak/filesystem.html",
+				"/var/www/eyeos/eyeos/system/kernel/libs/exceptions/subclasses/SecurityException.php",
+				"/var/www/eyeos/eyeos/system/kernel/libs/exceptions/exceptions.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/View.js",
+				"/var/www/eyeos/devtools/eyeos/config.json",
+				"/home/eyeos/Desktop/eyeos MVC.diff",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/tool/pylib/ecmascript/backend/api.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/tool/pylib/ecmascript/frontend/treeutil.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/tool/pylib/generator/resource/Library.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/pylib/generator/resource/Library.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/pylib/ecmascript/frontend/treeutil.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/pylib/ecmascript/backend/api.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/pylib/generator/code/clazz/MClassDependencies.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/tool/pylib/generator/code/clazz/MClassDependencies.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/table/headerrenderer/Icon.js",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/table/IHeaderRenderer.js",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/table/headerrenderer/Default.js",
+				"/var/www/eyeos/eyeos/system/kernel/services/MMap/implementations/MMapGroup.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/MessageCall.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/GroupCall",
+				"/var/www/eyeos/eyeos/apps/servicefs/servicefs.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/theme/eyetheme/Appearance.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/view/icon/iconItem/IconItemView.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/mvc/Model.js",
+				"/var/www/eyeos/test.php",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/core/queue/Layout.js",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/core/queue/Manager.js",
+				"/home/eyeos/www/eyeos/eyeos/system/Frameworks/Applications/Executables/EyeosModules/FileSystemExecModule.php",
+				"/home/eyeos/www/eyeos/eyeos/apps/servicefs/servicefs.php",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/fs/FileSystemManager.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/fs/Directory.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/fs/File.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/fs/Inode.js",
+				"/home/eyeos/filesystem.html",
+				"/home/eyeos/www/eyeos/test.php",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/fs/Path.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/deprecated-js/eyeos.js",
+				"/home/eyeos/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/core/queue/Layout.js",
+				"/home/eyeos/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/core/queue/Manager.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/core/Promise.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/test/core/PromiseTest.js",
+				"/home/eyeos/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/data/config/base.json",
+				"/home/eyeos/www/eyeos/devtools/eyeos/test/index.html",
+				"/home/eyeos/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/data/config/application.json",
+				"/home/eyeos/www/eyeos/devtools/eyeos/config.json",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/test/core/Promise.test.js"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"getFileInfo",
+					"browsePath",
+					"new eyeos.files.File",
+					"currentFiles",
+					"setFile(",
+					"setFile",
+					"getFile",
+					"returnSelected",
+					"getDragQueue",
+					"checkEditionOptions",
+					"setRoleOfCurrentUser",
+					"checkEditionOptions",
+					"_setFileMenu",
+					"'rename",
+					"rename",
+					"FileSystemExecModule",
+					"permissionsFile",
+					"getRoleForUserInFile",
+					"getExtendedFileRolesOfCurrentUser",
+					"getFileInfo",
+					"enabled",
+					"getRolesByWorkgroup",
+					"browsePath",
+					"getFilesFromFolder",
+					"checkPermissionsOfCurrentUser",
+					"get",
+					"getFileRoles",
+					"getFilesFromFolderRecursive",
+					"setRolesToFile",
+					"getFileRoles",
+					"getFilesFromFolderRecursive",
+					"setRolesToFile",
+					"g",
+					"getFileRoles",
+					"getFilesFromFolderRecursive",
+					"setRolesToFile",
+					"getExtendedFileRolesOfCurrentUser",
+					"isEditorRestricted",
+					"checkEditionOptions",
+					"PERMISSIONS",
+					"getRolesByWorkgroup",
+					"browsePath",
+					"getFileRoles",
+					"getFilesFromFolder",
+					"getFileRoles",
+					"getFilesFromFolderRecursive",
+					"setRolesToFile",
+					"getRoleForUserInFile",
+					"getFilesFromFolderRecursive",
+					"isEditorRestricted",
+					"_browse(",
+					"_browse(true",
+					"_browse",
+					"false",
+					"rename",
+					"edit",
+					"returnselected",
+					"returnsel",
+					"editFile",
+					"rename",
+					"browsePath",
+					"move(",
+					"move",
+					"getRoleForUserInFile",
+					"permission",
+					"permissions",
+					"itemSelectionChanged",
+					"this._selection",
+					"JSON",
+					"servicefs",
+					"route",
+					"sessionç",
+					"session",
+					"setCurrentUserData",
+					"executeJavascript",
+					"AppExecutionContext",
+					"executeJavascript",
+					"executeJavascr",
+					"configureContextMenu",
+					"try",
+					"executeJavascript",
+					"fire",
+					"_syncData",
+					"_createDomElement",
+					"checkFilesPermission",
+					"delete",
+					"self:",
+					"$param[",
+					"createNew",
+					"currentUserGroup",
+					"try",
+					"\\n",
+					"move(",
+					"move",
+					"copy",
+					"this._",
+					"_executeCallback",
+					"_execute",
+					"execute",
+					"session",
+					"getProces",
+					"getProcess",
+					"restoreSessionProcess",
+					"startLogin",
+					"restoreSessionProcess",
+					"servicefs",
+					"cleanSession",
+					"_initFilesQueue",
+					"cleanSession",
+					"_initMessageBus",
+					"cleanSession",
+					"preInitialization",
+					"bootstrap",
+					"restoreAllRunningProcesses",
+					"prop",
+					"__unwrapFunctionFromCode",
+					"new Function",
+					"delete(",
+					"getInfo",
+					"getFileRoles",
+					"getRoleForUserInFile",
+					"getRole",
+					"checkFilesPermission",
+					"getRoles",
+					"__buttonSaveNew",
+					"'edit'",
+					"__imagePath",
+					"_onButtonSaveClicked"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"\\r\\n",
+					"self::",
+					"static function",
+					"eyeos.core.Pro",
+					"validateFileJson",
+					"",
+					"$Logger",
+					"\"",
+					"",
+					"child, event, controller",
+					"	\"view ",
+					"\"",
+					"type",
+					"\\n",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 29.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"format",
+						"apps/eyedocs/libs/format.js"
+					],
+					[
+						"handler/dragdrop.js",
+						"qx/event/handler/DragDrop.js"
+					],
+					[
+						"interfaces.php",
+						"eyeos/system/Frameworks/Applications/interfaces.php"
+					],
+					[
+						"requestqueue",
+						"qx/io/remote/RequestQueue.js"
+					],
+					[
+						"eyeosapplicationexecutable",
+						"eyeos/system/Frameworks/Applications/Executables/EyeosApplicationExecutable.php"
+					],
+					[
+						"exceptions",
+						"eyeos/system/kernel/libs/exceptions/subclasses/SecurityException.php"
+					],
+					[
+						"exceptions.php",
+						"eyeos/system/kernel/libs/exceptions/exceptions.php"
+					],
+					[
+						"icon.js",
+						"devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/table/headerrenderer/Icon.js"
+					],
+					[
+						"iheaderre",
+						"qx/ui/table/IHeaderRenderer.js"
+					],
+					[
+						"default.js",
+						"qx/ui/table/headerrenderer/Default.js"
+					],
+					[
+						"config.json",
+						"devtools/eyeos/config.json"
+					],
+					[
+						"base.json",
+						"devtools/qooxdoo-1.5-sdk/tool/data/config/base.json"
+					],
+					[
+						"application.json",
+						"devtools/qooxdoo-1.5-sdk/tool/data/config/application.json"
+					],
+					[
+						"path.php",
+						"eyeos/system/kernel/libs/utf8/pathinfo.php"
+					],
+					[
+						"securitymanager.php",
+						"eyeos/system/kernel/services/Security/implementations/SecurityManager.php"
+					],
+					[
+						"virtualfile.php",
+						"www/eyeos/eyeos/system/kernel/services/FileSystem/implementations/libs/eyeOOFiles/classes/VirtualFile.php"
+					],
+					[
+						"eyeuserfile.php",
+						"www/eyeos/eyeos/system/kernel/services/FileSystem/implementations/libs/eyeOOFiles/classes/VirtualFile/UserFile.php"
+					],
+					[
+						"mmapmsg.php",
+						"eyeos/system/kernel/services/MMap/implementations/MMapMsg.php"
+					],
+					[
+						"virtualfile",
+						"eyeos/system/kernel/services/FileSystem/implementations/libs/eyeOOFiles/classes/VirtualFile.php"
+					],
+					[
+						"eyeuserfile",
+						"eyeos/system/kernel/services/FileSystem/implementations/libs/eyeOOFiles/classes/VirtualFile/UserFile.php"
+					],
+					[
+						"object.js",
+						"qx/core/Object.js"
+					],
+					[
+						"event.js",
+						"qx/bom/Event.js"
+					],
+					[
+						"data.js",
+						"qx/event/type/Data.js"
+					],
+					[
+						"button.js",
+						"qx/ui/form/Button.js"
+					],
+					[
+						"securitymanag",
+						"eyeos/system/conf/services/Security/SecurityManager.xml"
+					],
+					[
+						"eyeos_default",
+						"www/professional/eyeos/system/conf/services/UM/AuthConfigurations/eyeos_default.xml"
+					],
+					[
+						"sysyeminfoconta",
+						"apps/adminpaneltry/SystemInfoContainer.js"
+					],
+					[
+						"systeminfocontainer",
+						"apps/adminpanel/SystemInfoContainer.js"
+					],
+					[
+						"systeminfocont",
+						"apps/adminpanel/SystemInfoContainer.js"
+					],
+					[
+						"newgroupwindow.js",
+						"js/eyeos/ui/tabs/NewGroupWindow.js"
+					],
+					[
+						"treelocationcombobox",
+						"js/eyeos/ui/widgets/TreeLocationComboBox.js"
+					],
+					[
+						"shortcutmanage",
+						"js/eyeos/ui/core/ShortcutManager.js"
+					],
+					[
+						"standard",
+						"js/eyeos/ui/window/Standard.js"
+					],
+					[
+						"groupadminwindow",
+						"js/eyeos/ui/tabs/GroupAdminWindow.js"
+					],
+					[
+						"eyeapplication",
+						"js/eyeos.system.EyeApplication.js"
+					],
+					[
+						"dialogs.js",
+						"js/eyeos.dialogs.js"
+					],
+					[
+						"eye",
+						"js/eyeos.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/home/eyeos/projects/bio.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": false,
+			"side_bar_visible": true,
+			"side_bar_width": 213.0,
+			"status_bar_visible": false
+		},
+		"new_window_width": 3626.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"else",
+						"else"
+					],
+					[
+						"_promiseA",
+						"_promiseArgs"
+					],
+					[
+						"_promise",
+						"_promise"
+					],
+					[
+						"waiting",
+						"waiting"
+					],
+					[
+						"getL",
+						"getLogger"
+					],
+					[
+						"getIn",
+						"getInstance"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/eyeos/.config/sublime-text-2/Packages/sublime-jslint/sublime-jslint.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 395,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/eyeos/.config/sublime-text-2/Packages/User/sublime-jslint.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 563,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/var/www/eyeos/eyeos/apps/files/eyeos.files.ViewManager.js",
+					"settings":
+					{
+						"buffer_size": 16394,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/var/www/eyeos/eyeos/apps/files/eyeos.files.SideBar.js",
+					"settings":
+					{
+						"buffer_size": 5690,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "/*\n *                 eyeos - The Open Source Cloud's Web Desktop\n *                               Version 2.0\n *                   Copyright (C) 2007 - 2010 eyeos Team\n *\n * This program is free software; you can redistribute it and/or modify it under\n * the terms of the GNU Affero General Public License version 3 as published by the\n * Free Software Foundation.\n *\n * This program is distributed in the hope that it will be useful, but WITHOUT\n * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS\n * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more\n * details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * version 3 along with this program in the file \"LICENSE\".  If not, see\n * <http://www.gnu.org/licenses/agpl-3.0.txt>.\n *\n * See www.eyeos.org for more details. All requests should be sent to licensing@eyeos.org\n *\n * The interactive user interfaces in modified source and object code versions\n * of this program must display Appropriate Legal Notices, as required under\n * Section 5 of the GNU Affero General Public License version 3.\n *\n * In accordance with Section 7(b) of the GNU Affero General Public License version 3,\n * these Appropriate Legal Notices must retain the display of the \"Powered by\n * eyeos\" logo and retain the original copyright notice. If the display of the\n * logo is not reasonably feasible for technical reasons, the Appropriate Legal Notices\n * must display the words \"Powered by eyeos\" and retain the original copyright notice.\n */\n\nqx.Class.define('eyeos.files.IconView', {\n\n	extend: qx.ui.container.Scroll,\n\n	construct: function(manager) {\n		console.log(\"Construct\");\n		this.base(arguments);\n		this.setViewManager(manager);\n		this.setDragging(false);\n		this._buildLayout();\n		this._addListeners();\n	},\n\n	properties: {\n		viewManager: {\n			check: 'Object'\n		},\n\n		model: {\n			check: 'Object'\n		},\n\n		dragging: {\n			check: 'Boolean'\n		}\n	},\n\n	members: {\n\n		_layoutBase: null,\n		_activeIcon: null,\n		_hasPermissionInFolder: null,\n\n		//@para qx.event.type.Dom - A event fired by keypress/onclick\n		isModPressed: function(e) {\n			if (qx.core.Environment.get('os.name') == 'osx') {\n				return e.isAltPressed();\n			} else {\n				return e.isCtrlPressed();\n			}\n		},\n\n		getLayoutBase: function() {\n			return this._layoutBase;\n		},\n\n		hasPermissionInFolder: function() {\n			return this._hasPermissionInFolder;\n		},\n\n		_addListeners: function() {\n			var currentPath = this.getViewManager().getModel().getCurrentPath()[1];\n			if (currentPath != 'share:///' && currentPath != 'workgroup:///') {\n				this._layoutBase.addListener('drop', function(e) {\n					if (!e.getRelatedTarget().getUserData('info')) {\n						var fileDropped = e.getRelatedTarget().getFile();\n						var pathFromFile = fileDropped.getAbsolutePath();\n						var type = fileDropped.getType();\n						var dirPath = fileDropped.getPath();\n						var currentPath = this.getViewManager().getModel().getCurrentPath()[1];\n						if (currentPath.substr(0, 8) != 'share://' && currentPath != 'workgroup:///') {\n							if (dirPath != currentPath && type != 'folder') {\n								if (dirPath.substr(0, 12) == 'workgroup://' && !this._isSameWorkgroup(dirPath, currentPath)) { //From workgroup to anyother files we do a copy\n									this.getViewManager().getController().specialCopy(currentPath);\n								} else {\n									this.getViewManager().getController().specialMove(currentPath);\n								}\n							} else if (type == 'folder' && currentPath != dirPath && currentPath.search(new RegExp(pathFromFile, 'gi')) == -1) {\n								if (dirPath.substr(0, 12) == 'workgroup://' && !this._isSameWorkgroup(dirPath, currentPath)) { //From workgroup to anyother files we do a copy\n									this.getViewManager().getController().specialCopy(currentPath);\n								} else {\n									this.getViewManager().getController().specialMove(currentPath);\n								}\n							} else {\n								var filesQueue = eyeos.filesQueue.getInstance();\n								filesQueue.setDragQueue([]);\n								filesQueue.setAction('');\n							}\n							this.setDragging(false);\n							e.stopPropagation();\n						}\n					} else {\n						//check if there is a selection\n						var sm = desktop.SelectionManager.getInstance();\n						if (sm.hasSelection() && sm.getSelection().length > 0) {\n						ç	var selection = sm.getSelection();\n						} else {\n							var selection = [e.getRelatedTarget()];\n						}\n\n						var info = selection[0].getUserData('info');\n						var type = info.type;\n						var pathFromFile = info.absolutepath;\n						//dirname() from php.js\n						var dirPath = pathFromFile.replace(/\\\\/g, '/').replace(/\\/[^\\/]*\\/?$/, '');\n						var currentPath = this.getViewManager().getModel().getCurrentPath()[1];\n						if (currentPath.substr(0, 8) != 'share://' && currentPath != 'workgroup:///') {\n							if (dirPath != currentPath && type != 'folder') {\n								this.getViewManager().getController().specialMove(currentPath, selection);\n							} else if (type == 'folder' && currentPath != dirPath && currentPath.search(new RegExp(pathFromFile, 'gi')) == -1) {\n								this.getViewManager().getController().specialMove(currentPath, selection);\n							} else {\n								var filesQueue = eyeos.filesQueue.getInstance();\n								filesQueue.setDragQueue([]);\n								filesQueue.setAction('');\n							}\n							this.setDragging(false);\n							e.stopPropagation();\n						}\n\n					}\n				}, this);\n\n				this.addListener('click', function(e) {\n					var selected = this.returnSelected();\n					if (selected.length >= 1) {\n						if (this.rangeBefore && this.rangeBefore == 1) {\n							this.rangeBefore = 0;\n						} else {\n							this.resetAllSelected();\n						}\n\n						//						this.getViewManager().getController().fireEvent('cleanSocialBar');\n					}\n				});\n\n				this.addListener('contextmenu', function(e) {\n					e.stopPropagation();\n					e.preventDefault();\n				});\n\n				var mousemovecallback = function(e) {\n						if (this.selecting) {\n							var x = e.getDocumentLeft();\n							var y = e.getDocumentTop();\n							y = y - 35; //topmenu + borders\n							if (x > this.selectorX) {\n								this.selector.setWidth(x - this.selectorX);\n							} else {\n								this.selector.setWidth(this.selectorX - x);\n								this.selector.setMarginLeft(x);\n							}\n\n							if (y > this.selectorY) {\n								this.selector.setHeight(y - this.selectorY);\n							} else {\n								this.selector.setHeight(this.selectorY - y);\n								this.selector.setMarginTop(y);\n							}\n							//\n							//						var selected = this.returnSelected();\n							//						if (selected.length >= 1) {\n							//							this.resetAllSelected();\n							//						}\n							//\n							//						var box = new Object();\n							//						if(x > this.selectorX) {\n							//							box.x = this.selectorX;\n							//							box.width = x-this.selectorX;\n							//						} else {\n							//							box.x = x;\n							//							box.width = this.selectorX-x;\n							//						}\n							//\n							//						if(y > this.selectorY) {\n							//							box.y = this.selectorY;\n							//							box.height = y-this.selectorY;\n							//						} else {\n							//							box.y = y;\n							//							box.height = this.selectorY-y;\n							//						}\n							//\n							//						//this is because the window can be moved in the screen!!!!\n							//						box.y = box.y - this.windowOffsetTop;\n							//						box.x = box.x - this.windowOffsetLeft;\n							//\n							//						box.y = box.y - 165; //top part of the window... hardcoded :(\n							//						box.x = box.x - 190; //left part of the window... hardcoded :(\n							//\n							//						var childrens = this._layoutBase.getChildren();\n							//						for(var i in childrens) {\n							//							if(childrens[i] instanceof eyeos.files.IconViewItem) {\n							//								var bounds = childrens[i].getBounds();\n							////								console.log(bounds);\n							////								console.log(box);\n							//								if(parseInt(bounds.top)+parseInt(bounds.height) > box.y\n							//									&& parseInt(bounds.top) < box.y + box.height\n							//									&& parseInt(bounds.left)+parseInt(bounds.width) > box.x\n							//									&& parseInt(bounds.left) < box.x + box.width\n							//									) {\n							//									childrens[i].select();\n							//								}\n							//							}\n							//						}\n						} else {\n							if (this.selector) {\n								this.selector.destroy();\n								this.selector = null;\n							}\n						}\n\n						e.stopPropagation();\n					};\n\n				var mouseupcallback = function(e) {\n						var x = e.getDocumentLeft();\n						var y = e.getDocumentTop();\n						y = y - 35; //topmenu + borders\n						if (this.selector) {\n							this.selector.destroy();\n							//						var x = e.getDocumentLeft();\n							//						var y = e.getDocumentTop();\n							//						y = y - 85;\n							//						x = x - 15;\n							//						//now, we need to calculate what are the icons inside the box\n							//						//so first, go calculate the box :)\n							//\n							var box = new Object();\n							if (x > this.selectorX) {\n								box.x = this.selectorX;\n								box.width = x - this.selectorX;\n							} else {\n								box.x = x;\n								box.width = this.selectorX - x;\n							}\n\n							if (y > this.selectorY) {\n								box.y = this.selectorY;\n								box.height = y - this.selectorY;\n							} else {\n								box.y = y;\n								box.height = this.selectorY - y;\n							}\n\n							//this is because the window can be moved in the screen!!!!\n							box.y = box.y - this.windowOffsetTop;\n							box.x = box.x - this.windowOffsetLeft;\n\n							//and what about the scroll? :)\n							box.y = box.y + this.getScrollY();\n\n							box.y = box.y - 165; //top part of the window... hardcoded :(\n							box.x = box.x - 190; //left part of the window... hardcoded :(\n\n							var childrens = this._layoutBase.getChildren();\n							for (var i in childrens) {\n								if (childrens[i] instanceof eyeos.files.IconViewItem) {\n									var bounds = childrens[i].getBounds();\n									//								console.log(bounds);\n									//								console.log(box);\n									if (parseInt(bounds.top) + parseInt(bounds.height) > box.y && parseInt(bounds.top) < box.y + box.height && parseInt(bounds.left) + parseInt(bounds.width) > box.x && parseInt(bounds.left) < box.x + box.width) {\n										this.rangeBefore = 1;\n										if (!(this.isModPressed(e))) {\n											childrens[i].select();\n										} else if (childrens[i].isSelected()) {\n											childrens[i].unselect();\n										} else {\n											childrens[i].select();\n										}\n									}\n								}\n							}\n						}\n						this.selector = null;\n						this.selecting = false;\n					};\n\n				//--------------- multiple select\n				this._layoutBase.addListener('mousedown', function(e) {\n\n					if (e.getButton() != 'left' || e.getTarget() != this._layoutBase) {\n						return;\n					}\n					if (!(this.isModPressed(e))) {\n						this.resetAllSelected();\n					}\n					if (this.selector) {\n						this.selector.destroy();\n						this.selector = null;\n					}\n					var x = e.getDocumentLeft();\n					var y = e.getDocumentTop();\n					y = y - 35; //topmenu + borders\n					this.selecting = true;\n					this.selector = new qx.ui.container.Composite();\n					this.selector.addListener('mousemove', mousemovecallback, this);\n					this.selector.addListener('mouseup', mouseupcallback, this);\n					this.selector.set({\n						opacity: 0.1,\n						backgroundColor: 'blue',\n						width: 0,\n						height: 0,\n						marginLeft: x,\n						marginTop: y,\n						zIndex: 9000000\n					});\n\n					this.selectorY = y;\n					this.selectorX = x;\n					this.windowOffsetTop = this.getViewManager().getBounds().top;\n					this.windowOffsetLeft = this.getViewManager().getBounds().left;\n					document.eyeDesktop.add(this.selector);\n				}, this);\n\n				this._layoutBase.addListener('mousemove', mousemovecallback, this);\n				this._layoutBase.addListener('mouseup', mouseupcallback, this);\n			}\n		},\n\n		_addItem: function(item) {\n			this._addListenersToItem(item);\n			this._layoutBase.add(item);\n		},\n\n		_addListenersToItem: function(item) {\n\n			var self = this;\n\n			/**\n			 * Click events\n			 */\n\n			item.addListener('selected', function(e) {\n				self.getViewManager().getController().fireDataEvent('selectedFile', self.returnSelected());\n			}, this);\n\n			item.addListener('click', function(e) {\n				if (!this._editing && !this._buttonSelectionActive) {\n					if (this.isSelected() && this.getManager().getViewManager().isKeyPress()) {\n						this.unselect();\n					} else if (!this.isSelected() && this.getManager().getViewManager().isKeyPress()) {\n						this.select();\n					} else {\n						if (e.getButton() == 'left') {\n							if (self.isModPressed(e) && this.isSelected()) {\n								this.unselect();\n							} else if (self.isModPressed(e) && !(this.isSelected())) {\n								this.select();\n							} else {\n								this.resetAllSelected();\n								this.select();\n							}\n						}\n\n					}\n				}\n\n				// In case our flag is true ... the click has popped, flag should return to false\n				// Now we use the stop propagation to avoid the click on the manager\n				e.stopPropagation();\n				this._buttonSelectionActive = false;\n			});\n\n			item.addListener('dblclick', function() {\n				var file = this.getFile();\n				var absolutePath = file.getAbsolutePath();\n				if (file.getType() == 'folder') {\n					this.getManager().getViewManager().getController()._browsePath(absolutePath, true);\n				} else {\n					var checknum = this.getManager().getViewManager().getController().getApplication().getChecknum();\n					if (file.getExtension() !== '') {\n						eyeos.openFile(absolutePath, checknum);\n					} else {\n						// files with no extension has to be downloaded\n						eyeos.execute('download', checknum, [absolutePath]);\n					}\n				}\n			});\n\n			item.addListener('unselected', function() {\n				var selected = item.getManager().returnSelected();\n				if (selected.length == 0) {\n					self.getViewManager().getController().fireDataEvent('directoryChanged', this.getViewManager().getModel().getCurrentPath()[1]);\n				}\n			}, this);\n\n			var currentPath = this.getViewManager().getModel().getCurrentPath()[1];\n\n			if (currentPath.substr(0, 8) != 'share://' && currentPath != 'workgroup:///') {\n\n				item.addListener('contextmenu', function(e) {\n					if (!this.isSelected()) {\n						self.resetAllSelected();\n						this.select();\n					}\n					e.stopPropagation();\n				});\n\n				/**\n				 * Drag and drop events\n				 */\n\n				item.addListener('dragstart', function(e) {\n\n					e.addAction('move');\n\n					// Multiple Selection on dragstart to select all the items\n					var childrenList = this.getManager().getLayoutBase().getChildren();\n					var alreadyDone = false;\n\n					// If there is more than one we will select it\n					for (var i = 0; i < childrenList.length; ++i) {\n						if (childrenList[i].isSelected()) {\n							childrenList[i].setDroppable(false);\n							alreadyDone = true;\n						}\n					}\n\n					// If not, do it now\n					if (!alreadyDone) {\n						this.select();\n						this.setDroppable(false);\n					}\n\n					this.getManager().setDragging(true);\n\n					var filesToMove = self.returnSelected();\n					var currentPath = self.getViewManager().getModel().getCurrentPath()[1];\n					var filesToPreMove = new Array();\n\n					for (var i = 0; i < filesToMove.length; ++i) {\n						filesToPreMove.push(filesToMove[i]);\n					}\n\n					var filesQueue = eyeos.filesQueue.getInstance();\n					filesQueue.fillDragQueue(filesToPreMove, currentPath);\n\n					//					var rootChildrens = qx.core.Init.getApplication().getRoot().getChildren();\n					//					for (var i = rootChildrens.length - 1; i >= 0; --i) {\n					//						if (rootChildrens[i] instanceof qx.ui.core.DragDropCursor) {\n					//							rootChildrens[i].getContentElement().resetSource();\n					//							i = 0;\n					//							//TO-DO: The 'replaced' image gets stuck sometimes\n					//							//rootChildrens[i].getContentElement().setSource('qx/decoration/Modern/menu/checkbox.gif');\n					//						}\n					//					}\n				});\n\n				item.addListener('dragover', function(e) {\n					this.getManager().setDragging(true);\n					if (this.getManager().isDragging() && !this.isSelected() && this.getFile().getType() == 'folder' && this.getFile().getPath().indexOf('home://~' + eyeos.getCurrentUserName() + '/.Trash') != 0) {\n						var movingFile = e.getRelatedTarget();\n						if (movingFile != null && movingFile instanceof eyeos.files.IconViewItem) {\n							this.setDecorator(this._decoratorDragOver);\n						}\n					}\n				});\n\n				item.addListener('dragleave', function(e) {\n					this.setDecorator(this._decoratorMouseOut);\n				});\n\n				item.addListener('dragend', function(e) {\n					this.getManager().setDragging(false);\n					this.setDecorator(this._decoratorMouseOut);\n					//this.resetAllSelected();\n					var filesQueue = eyeos.filesQueue.getInstance();\n					filesQueue.setDragQueue([]);\n				});\n\n\n				item.addListener('drop', function(e) {\n					var item = e.getRelatedTarget();\n					if (item.getFile().getPath().indexOf('home://~' + eyeos.getCurrentUserName() + '/.Trash') == 0) {\n						return;\n					}\n					if (item instanceof eyeos.files.IconViewItem) {\n						var droppedFile = item.getFile();\n						var droppedPath;\n						if (droppedFile.getType() == 'folder') {\n							droppedPath = droppedFile.getAbsolutePath();\n						} else {\n							droppedPath = droppedFile.getPath();\n						}\n						if (this.getFile().getType() == 'folder') {\n							if (droppedFile.getType() == 'folder' && droppedFile.getAbsolutePath() != this.getFile().getAbsolutePath() && droppedFile.getPath() != this.getFile().getAbsolutePath() && this.getFile().getAbsolutePath().search(new RegExp(droppedFile.getAbsolutePath(), 'gi')) == -1) {\n								if (droppedPath.substr(0, 12) == 'workgroup://' && !this.getManager()._isSameWorkgroup(droppedPath, this.getFile().getAbsolutePath())) { //From workgroup to anyother files we do a copy\n									this.getManager().getViewManager().getController().specialCopy(this.getFile().getAbsolutePath());\n								} else {\n									this.getManager().getViewManager().getController().specialMove(this.getFile().getAbsolutePath());\n								}\n							}\n							if (droppedFile.getType() != 'folder' && droppedFile.getPath() != this.getFile().getAbsolutePath()) {\n								if (droppedPath.substr(0, 12) == 'workgroup://' && !this.getManager()._isSameWorkgroup(droppedPath, this.getFile().getAbsolutePath())) { //From workgroup to anyother files we do a copy\n									this.getManager().getViewManager().getController().specialCopy(this.getFile().getAbsolutePath());\n								} else {\n									this.getManager().getViewManager().getController().specialMove(this.getFile().getAbsolutePath());\n								}\n							}\n						} else {\n							var filesQueue = eyeos.filesQueue.getInstance();\n							filesQueue.setDragQueue([]);\n						}\n						this.getManager().setDragging(false);\n						e.stopPropagation();\n					}\n				});\n			}\n		},\n\n		_buildLayout: function(e) {\n			var wrapper = new qx.ui.container.Composite(new qx.ui.layout.HBox());\n			this._layoutBase = new qx.ui.container.Composite(new qx.ui.layout.Flow(5, 5)).set({\n				droppable: true,\n				backgroundColor: '#FFFFFF',\n				allowShrinkY: false,\n				allowGrowX: true,\n				allowGrowY: true,\n				padding: 10\n			});\n\n			//Now the menu its is dinamically create by generateContextMenu\n/*\n			var borderMenu = new qx.ui.decoration.Single(1, 'solid', '#eeeeee');\n			this._menu = new eyeos.ui.menu.Menu().set({\n				decorator: borderMenu\n			});\n			\n			var menu = this.self(arguments).MENU;\n			\n			for (var i = 0; i < menu.length; ++i) {\n				var item = null;\n				if (menu[i].id != 'separator') {\n					item = new eyeos.ui.menu.Button(menu[i].label, menu[i].image);\n					item.setUserData('id', menu[i].id);\n					item._manager = this.getViewManager().getController();\n\n					item.addListener('execute', function (e) {\n						eval('this._manager.'+this.getUserData('id'));\n					});\n				} else {\n					item = new eyeos.ui.menu.Separator();\n				}\n				this._menu.add(item);\n			}\n			*/\n			wrapper.add(this._layoutBase, {\n				flex: 1\n			});\n\n			wrapper.add(new qx.ui.container.Composite(new qx.ui.layout.HBox()).set({\n				height: 1\n			}));\n			this.add(wrapper, {\n				flex: 1\n			});\n		},\n\n\n		showBrowse: function() {\n			this._layoutBase.removeAll();\n			var files = this.reorder(this.getViewManager().getModel().getCurrentFiles());\n			for (var i = 0; i < files.length; ++i) {\n				var item = new eyeos.files.IconViewItem(this, files[i]);\n				this._addItem(item);\n			}\n		},\n\n		generateContextMenu: function(enabled, path, filesIn) {\n			this._hasPermissionInFolder = enabled == 'true';\n\n			//Create The Menu\n			var borderMenu = new qx.ui.decoration.Single(1, 'solid', '#eeeeee');\n			this._menu = new eyeos.ui.menu.Menu().set({\n				decorator: borderMenu\n			});\n\n			// Determine the elements and the activation\n			// Determine if it is a Trash\n			if (path.indexOf('home://~' + eyeos.getCurrentUserName() + '/.Trash') == 0) {\n				if (path != 'home://~' + eyeos.getCurrentUserName() + '/.Trash') {\n					return null;\n				} else {\n					var menu = this.self(arguments).MENU_TRASH;\n					if (filesIn == 0) {\n						this._menu.setEnabled(false);\n					} else {\n						this._menu.setEnabled(true);\n					}\n				}\n\n			}\n\n			//If not it is a normal files menu\n			else {\n				var menu = this.self(arguments).MENU;\n				if (eyeos.checkObjectPermission('upload', 'execute')) {\n					menu = this.self(arguments).UPLOAD.concat(this.self(arguments).MENU);\n				} else {\n					menu = this.self(arguments).MENU;\n				}\n				this._menu.setEnabled(enabled == 'true');\n\n			}\n			//Fill The menu\n			for (var i = 0; i < menu.length; ++i) {\n				var item = null;\n				if (menu[i].id != 'separator') {\n					item = new eyeos.ui.menu.Button(menu[i].label, menu[i].image);\n					item.setUserData('id', menu[i].id);\n					item._manager = this.getViewManager().getController();\n\n					item.addListener('execute', function(e) {\n						eval('this._manager.' + this.getUserData('id'));\n					});\n				} else {\n					item = new eyeos.ui.menu.Separator();\n				}\n				this._menu.add(item);\n			}\n			return this._menu;\n\n		},\n\n		filterBrowse: function(filter) {\n			if (filter == null) {\n				return;\n			}\n			this._layoutBase.removeAll();\n			var files = this.reorder(this.getViewManager().getModel().getCurrentFiles());\n			for (var i = 0; i < files.length; ++i) {\n				if (files[i].getName().toUpperCase().indexOf(filter.toUpperCase()) >= 0) {\n					var item = new eyeos.files.IconViewItem(this, files[i]);\n					this._addItem(item);\n				}\n			}\n		},\n\n		reorder: function(filesToOrder) {\n			var folders = new Array();\n			var files = new Array();\n			var filesOrdered = new Array();\n\n			for (var i = 0; i < filesToOrder.length; ++i) {\n				if (filesToOrder[i].getType() == 'folder') {\n					folders.push(filesToOrder[i]);\n				} else {\n					files.push(filesToOrder[i]);\n				}\n			}\n\n\n			filesOrdered = folders.concat(files);\n\n			return filesOrdered;\n		},\n\n		returnAll: function() {\n			return this._layoutBase.getChildren();\n		},\n\n		returnSelected: function() {\n			var selected = new Array();\n			var childrens = this._layoutBase.getChildren();\n			for (var i = 0; i < childrens.length; ++i) {\n				if (childrens[i].isSelected()) {\n					selected.push(childrens[i]);\n				}\n			}\n			return selected;\n		},\n\n		resetAllSelected: function() {\n			var childrenList = this.returnSelected();\n			for (var i = 0; i < childrenList.length; ++i) {\n				if (childrenList[i].isSelected()) {\n					childrenList[i].unselect();\n					childrenList[i]._clicked = false;\n				}\n			}\n		},\n\n		_isSameWorkgroup: function(sourcePath, destinationPath) {\n			var sourceWorkgroup = sourcePath.split('/')[2];\n			var destinationWorkgroup = destinationPath.split('/')[2];\n			return sourceWorkgroup == destinationWorkgroup;\n		},\n\n\n		//@param direction -> left || up || right || down\n		arrowKeyHandler: function(direction) {\n			//Get the last selected icon\n			var childrenList = this.returnAll();\n			var childrenListLength = parseInt(childrenList.length, 10);\n			var selectedChildrenList = this.returnSelected();\n			var selectedChildrenListLength = parseInt(selectedChildrenList.length, 10);\n			if (selectedChildrenListLength == 0) {\n				childrenList[0].select();\n				return false;\n			}\n\n			var positionLastChildrenSelected = 0;\n			for (var i = 0; i < childrenListLength; i++) {\n				if (childrenList[i].isSelected()) {\n					positionLastChildrenSelected = i;\n				}\n			}\n\n			var positionNewChildrenSelected = positionLastChildrenSelected;\n			//Calculate the new selected icon\n			if (direction == 'left' && positionLastChildrenSelected > 0) {\n				positionNewChildrenSelected--;\n\n			} else if (direction == 'right' && positionLastChildrenSelected < (childrenListLength - 1)) {\n				positionNewChildrenSelected++;\n\n			} else if (direction == 'up' || direction == 'down') {\n				//calculate the lines of files & check if there is possible to move\n				var iconWidth = childrenList[0].get('width') + this._layoutBase.getLayout().getSpacingX();\n				var windowWidth = this._layoutBase.getBounds().width;\n				var iconsInOneLine = Math.floor(windowWidth / iconWidth);\n				var numLines = Math.ceil(childrenListLength / iconsInOneLine);\n				var iconIsInLine = Math.ceil((positionLastChildrenSelected + 1) / iconsInOneLine);\n				if (direction == 'down' && iconIsInLine < numLines) {\n					if ((positionLastChildrenSelected + iconsInOneLine) >= (childrenListLength - 1)) positionNewChildrenSelected = childrenListLength - 1;\n					else positionNewChildrenSelected = positionLastChildrenSelected + iconsInOneLine;\n				}\n				if (direction == 'up' && iconIsInLine > 1) {\n					positionNewChildrenSelected = positionLastChildrenSelected - iconsInOneLine;\n				}\n\n			} else {\n				eyeos.consoleError('Direction not recognized: ' + direction);\n				return false;\n			}\n			//If is diferent, change it\n			if (positionNewChildrenSelected != positionLastChildrenSelected) {\n				this.resetAllSelected();\n				childrenList[positionNewChildrenSelected].select();\n			}\n		}\n	},\n\n	statics: {\n		UPLOAD: [{\n			label: tr('Upload file'),\n			//image: 'eyeos/extern/images/16x16/actions/window-new.png',\n			id: 'uploadFile()'\n		}, {\n			label: tr('Separator'),\n			id: 'separator'\n		}],\n\n		MENU: [{\n			label: tr('New folder'),\n			//image: 'eyeos/extern/images/16x16/places/folder.png',\n			id: 'newFolder()'\n			//		}, {\n			//			label: tr('New simple document'),\n			//			image: 'eyeos/extern/images/16x16/mimetypes/text-x-generic.png',\n			//			id: 'newFile(\\'txt\\')'\n		}, {\n			label: tr('New document'),\n			//image: 'eyeos/extern/images/16x16/mimetypes/application-msword.png',\n			id: 'newFile(\\'edoc\\')'\n		}, {\n			label: tr('New link'),\n			//	image: 'eyeos/extern/images/16x16/mimetypes/application-x-mswinurl.png',\n			id: 'newLink()'\n		}, {\n			label: tr('Separator'),\n			id: 'separator'\n		}, {\n			label: tr('Paste'),\n			//image: 'eyeos/extern/images/16x16/actions/edit-paste.png',\n			id: 'pasteFile()'\n		}],\n\n		MENU_ALTERNATIVE: [{\n			label: tr('Open'),\n			//image: 'eyeos/extern/images/16x16/actions/document-open.png',\n			id: 'openFile()'\n		}, {\n			label: tr('Copy'),\n			//image: 'eyeos/extern/images/16x16/actions/edit-copy.png',\n			id: 'copyFile()'\n		}, {\n			label: tr('Download'),\n			//image: 'eyeos/extern/images/16x16/actions/go-down.png',\n			id: 'downloadFile()'\n		}],\n		MENU_TRASH: [{\n			label: tr('Empty recycling bin'),\n			//image: 'eyeos/extern/images/16x16/actions/document-open.png',\n			id: 'emptyRecycleBin()'\n		}],\n		MENU_EMPTY_ACTIONS: [{\n			label: tr('You have no permissions on this group'),\n			//image: 'eyeos/extern/images/16x16/actions/document-open.png',\n			id: 'empty'\n		}]\n	}\n});",
+					"file": "/var/www/eyeos/eyeos/apps/files/eyeos.files.IconView.js",
+					"file_size": 27326,
+					"file_write_time": 1325768572000000,
+					"settings":
+					{
+						"buffer_size": 27327,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/var/www/eyeos/eyeos/apps/files/eyeos.files.Model.js",
+					"settings":
+					{
+						"buffer_size": 2325,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 283.0,
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Discover Packages"
+					],
+					[
+						"Install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package",
+						"Package Control: List Packages"
+					],
+					[
+						"Format",
+						"Format: Javascript"
+					],
+					[
+						"git Pull",
+						"Git: Pull"
+					],
+					[
+						"JSLint",
+						"Preferences: JSLint Settings – Default"
+					],
+					[
+						"Lint",
+						"Preferences: JSLint Settings – User"
+					],
+					[
+						"lint",
+						"JSLint: Run JSLint"
+					],
+					[
+						"Forma	",
+						"Format: Javascript"
+					],
+					[
+						"jas",
+						"Format: Javascript"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Align",
+						"Preferences: Alignment Key Bindings – Default"
+					],
+					[
+						"setting",
+						"Preferences: User File Settings"
+					],
+					[
+						"Settings",
+						"Preferences: Default File Settings"
+					],
+					[
+						"settings",
+						"Preferences: Default Global Settings"
+					],
+					[
+						"Setting",
+						"Preferences: User Global Settings"
+					],
+					[
+						"Indenta",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"indenta",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"Indent",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"Tabs",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"spaces",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"Spaces",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"indentation",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"tabs",
+						"View: Toggle Tabs"
+					],
+					[
+						"convert",
+						"Indentation: Convert to Tabs"
+					]
+				],
+				"width": 593.0
+			},
+			"console":
+			{
+				"height": 129.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": true,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/var/www/eyeos/eyeos/apps/eyedocs/libs/format.js",
+				"/var/www/eyeos/eyeos/apps/clientservicefilesystem/clientservicefilesystem.php",
+				"/var/www/eyeos/eyeos/apps/clientservicefilesystem/clientservicefilesystem.js",
+				"/var/www/eyeos/eyeos/system/Frameworks/Applications/Executables/EyeosModules/FileSystemExecModule.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/controller/Files.js",
+				"/var/www/eyeos/eyeos/apps/files/eyeos.files.ViewManager.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/controller/Base.js",
+				"/home/eyeos/.config/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+				"/var/www/eyeos/eyeos/apps/clientservicefilesystem/info.xml",
+				"/home/eyeos/Escritorio/permissions.txt",
+				"/var/www/eyeos/eyeos/apps/files/eyeos.files.IconViewItem.js",
+				"/var/www/eyeos/eyeos/apps/files/eyeos.files.IconView.js",
+				"/var/www/eyeos/eyeos/apps/files/files.js",
+				"/var/www/eyeos/eyeos/apps/clientservicefilesystem/permissions.php",
+				"/var/www/eyeos/eyeos/apps/clientservicefilesystem/EyePath.php",
+				"/var/www/eyeos/eyeos/extern/deprecated-js/eyeos/files/File.js",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/framework/source/class/qx/event/handler/DragDrop.js",
+				"/home/eyeos/Descargas/WorkgroupFileSecurityHandler.php",
+				"/var/www/eyeos/eyeos/apps/permissions/permissions.php",
+				"/var/www/eyeos/eyeos/system/kernel/services/Security/implementations/Handlers/WorkgroupFileSecurityHandler.php",
+				"/home/eyeos/Escritorio/test.html",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/view/Base.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/mvc/View.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/FilesSelection.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/mvc/Controller.js",
+				"/home/eyeos/Source/Javascript/selchi/specs/core/core.test.js",
+				"/home/eyeos/Source/Javascript/selchi/src/classes/force.js",
+				"/home/eyeos/Source/Javascript/seldoo/specs/extensions.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/fs/Path.js",
+				"/var/www/eyeos/eyeos/users/matias/files/Desktop/New File manager.lnk",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/fs/Inode.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/fs/File.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/fs/Link.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/Model.js",
+				"/var/www/eyeos/eyeos/apps/init/init.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/basic/Label.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/FileManager.js",
+				"/var/www/eyeos/eyeos/apps/filesnew/filesnew.js",
+				"/var/www/eyeos/eyeos/apps/filesnew/window/View.js",
+				"/var/www/eyeos/eyeos/apps/filesnew/window/Controller.js",
+				"/var/www/eyeos/eyeos/extern/deprecated-js/eyeos/ui/widgets/Breadcrumb.js",
+				"/var/www/eyeos/eyeos/extern/deprecated-js/eyeos.js",
+				"/var/www/eyeos/eyeos/apps/session/session.js",
+				"/var/www/eyeos/eyeos/apps/servicefs/servicefs.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/FilesSelection.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/fs/Directory.js",
+				"/var/www/eyeos/eyeos/system/kernel/services/MMap/implementations/MMapGetApp.php",
+				"/var/www/eyeos/eyeos/system/Frameworks/Applications/interfaces.php",
+				"/var/www/eyeos/eyeos/apps/session/session.php",
+				"/var/www/session/eyeos/apps/session/session.php",
+				"/var/www/session/eyeos/apps/init/init.php",
+				"/var/www/eyeos/eyeos/extern/deprecated-js/eyeos/ui/Window.js",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/framework/source/class/qx/io/remote/RequestQueue.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/Server.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/view/List.js",
+				"/var/www/eyeos/eyeos/apps/servicefs/permissions.php",
+				"/var/www/eyeos/eyeos/apps/login/login.js",
+				"/var/www/eyeos/eyeos/apps/desktop/desktop.js",
+				"/var/www/eyeos/eyeos/apps/init/init.js",
+				"/var/www/eyeos/eyeos/system/Frameworks/Applications/Executables/EyeosApplicationExecutable.php",
+				"/var/www/eyeos/eyeos/apps/login/login.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/Execute.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/Call.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/Petition.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/Queue.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/GroupCall.js",
+				"/var/www/eyeos/eyeos/apps/openlink/openlink.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/core/Promise.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/IPetition.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/Execute",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/framework/source/class/qx/core/Property.js",
+				"/var/www/eyeos/eyeos/apps/adminpanel/Controller.js",
+				"/var/www/eyeos/eyeos/apps/adminpanel/userPanel/ConcreteUserEditContainer.js",
+				"/var/www/eyeos/eyeos/apps/adminpanel/adminpanel.php",
+				"/home/eyeos/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
+				"/home/eyeos/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+				"/home/eyeos/.config/sublime-text-2/Packages/Default/Global.sublime-settings",
+				"/home/eyeos/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+				"/var/www/eyeos/eyeos/system/Frameworks/Applications/Executables/EyeosModules/WorkgroupsExecModule.php",
+				"/var/www/eyeos/eyeos/apps/topmenu/topmenu.js",
+				"/var/www/eyeos/eyeos/apps/topmenu/topmenu.php",
+				"/var/www/eyeos/eyeos/apps/servicefs/EyePath.php",
+				"/home/bak/filesystem.html",
+				"/var/www/eyeos/eyeos/system/kernel/libs/exceptions/subclasses/SecurityException.php",
+				"/var/www/eyeos/eyeos/system/kernel/libs/exceptions/exceptions.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/View.js",
+				"/var/www/eyeos/devtools/eyeos/config.json",
+				"/home/eyeos/Desktop/eyeos MVC.diff",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/tool/pylib/ecmascript/backend/api.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/tool/pylib/ecmascript/frontend/treeutil.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/tool/pylib/generator/resource/Library.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/pylib/generator/resource/Library.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/pylib/ecmascript/frontend/treeutil.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/pylib/ecmascript/backend/api.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/pylib/generator/code/clazz/MClassDependencies.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5.1-sdk/tool/pylib/generator/code/clazz/MClassDependencies.py",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/table/headerrenderer/Icon.js",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/table/IHeaderRenderer.js",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/table/headerrenderer/Default.js",
+				"/var/www/eyeos/eyeos/system/kernel/services/MMap/implementations/MMapGroup.php",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/MessageCall.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/io/server/GroupCall",
+				"/var/www/eyeos/eyeos/apps/servicefs/servicefs.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/theme/eyetheme/Appearance.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/ui/files/filemanager/view/icon/iconItem/IconItemView.js",
+				"/var/www/eyeos/eyeos/extern/api/eyeos/mvc/Model.js",
+				"/var/www/eyeos/test.php",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/core/queue/Layout.js",
+				"/var/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/core/queue/Manager.js",
+				"/home/eyeos/www/eyeos/eyeos/system/Frameworks/Applications/Executables/EyeosModules/FileSystemExecModule.php",
+				"/home/eyeos/www/eyeos/eyeos/apps/servicefs/servicefs.php",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/fs/FileSystemManager.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/fs/Directory.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/fs/File.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/fs/Inode.js",
+				"/home/eyeos/filesystem.html",
+				"/home/eyeos/www/eyeos/test.php",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/fs/Path.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/deprecated-js/eyeos.js",
+				"/home/eyeos/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/core/queue/Layout.js",
+				"/home/eyeos/www/eyeos/devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/core/queue/Manager.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/core/Promise.js",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/test/core/PromiseTest.js",
+				"/home/eyeos/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/data/config/base.json",
+				"/home/eyeos/www/eyeos/devtools/eyeos/test/index.html",
+				"/home/eyeos/www/eyeos/devtools/qooxdoo-1.5-sdk/tool/data/config/application.json",
+				"/home/eyeos/www/eyeos/devtools/eyeos/config.json",
+				"/home/eyeos/www/eyeos/eyeos/extern/api/eyeos/test/core/Promise.test.js"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"getFileInfo",
+					"browsePath",
+					"new eyeos.files.File",
+					"currentFiles",
+					"setFile(",
+					"setFile",
+					"getFile",
+					"returnSelected",
+					"getDragQueue",
+					"checkEditionOptions",
+					"setRoleOfCurrentUser",
+					"checkEditionOptions",
+					"_setFileMenu",
+					"'rename",
+					"rename",
+					"FileSystemExecModule",
+					"permissionsFile",
+					"getRoleForUserInFile",
+					"getExtendedFileRolesOfCurrentUser",
+					"getFileInfo",
+					"enabled",
+					"getRolesByWorkgroup",
+					"browsePath",
+					"getFilesFromFolder",
+					"checkPermissionsOfCurrentUser",
+					"get",
+					"getFileRoles",
+					"getFilesFromFolderRecursive",
+					"setRolesToFile",
+					"getFileRoles",
+					"getFilesFromFolderRecursive",
+					"setRolesToFile",
+					"g",
+					"getFileRoles",
+					"getFilesFromFolderRecursive",
+					"setRolesToFile",
+					"getExtendedFileRolesOfCurrentUser",
+					"isEditorRestricted",
+					"checkEditionOptions",
+					"PERMISSIONS",
+					"getRolesByWorkgroup",
+					"browsePath",
+					"getFileRoles",
+					"getFilesFromFolder",
+					"getFileRoles",
+					"getFilesFromFolderRecursive",
+					"setRolesToFile",
+					"getRoleForUserInFile",
+					"getFilesFromFolderRecursive",
+					"isEditorRestricted",
+					"_browse(",
+					"_browse(true",
+					"_browse",
+					"false",
+					"rename",
+					"edit",
+					"returnselected",
+					"returnsel",
+					"editFile",
+					"rename",
+					"browsePath",
+					"move(",
+					"move",
+					"getRoleForUserInFile",
+					"permission",
+					"permissions",
+					"itemSelectionChanged",
+					"this._selection",
+					"JSON",
+					"servicefs",
+					"route",
+					"sessionç",
+					"session",
+					"setCurrentUserData",
+					"executeJavascript",
+					"AppExecutionContext",
+					"executeJavascript",
+					"executeJavascr",
+					"configureContextMenu",
+					"try",
+					"executeJavascript",
+					"fire",
+					"_syncData",
+					"_createDomElement",
+					"checkFilesPermission",
+					"delete",
+					"self:",
+					"$param[",
+					"createNew",
+					"currentUserGroup",
+					"try",
+					"\\n",
+					"move(",
+					"move",
+					"copy",
+					"this._",
+					"_executeCallback",
+					"_execute",
+					"execute",
+					"session",
+					"getProces",
+					"getProcess",
+					"restoreSessionProcess",
+					"startLogin",
+					"restoreSessionProcess",
+					"servicefs",
+					"cleanSession",
+					"_initFilesQueue",
+					"cleanSession",
+					"_initMessageBus",
+					"cleanSession",
+					"preInitialization",
+					"bootstrap",
+					"restoreAllRunningProcesses",
+					"prop",
+					"__unwrapFunctionFromCode",
+					"new Function",
+					"delete(",
+					"getInfo",
+					"getFileRoles",
+					"getRoleForUserInFile",
+					"getRole",
+					"checkFilesPermission",
+					"getRoles",
+					"__buttonSaveNew",
+					"'edit'",
+					"__imagePath",
+					"_onButtonSaveClicked"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"\\r\\n",
+					"self::",
+					"static function",
+					"eyeos.core.Pro",
+					"validateFileJson",
+					"",
+					"$Logger",
+					"\"",
+					"",
+					"child, event, controller",
+					"	\"view ",
+					"\"",
+					"type",
+					"\\n",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 4,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/eyeos/.config/sublime-text-2/Packages/sublime-jslint/sublime-jslint.sublime-settings",
+							"settings":
+							{
+								"buffer_size": 395,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										395,
+										395
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/eyeos/.config/sublime-text-2/Packages/User/sublime-jslint.sublime-settings",
+							"settings":
+							{
+								"buffer_size": 563,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										500,
+										500
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/var/www/eyeos/eyeos/apps/files/eyeos.files.ViewManager.js",
+							"settings":
+							{
+								"buffer_size": 16394,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1705,
+										1705
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 9142.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/var/www/eyeos/eyeos/apps/files/eyeos.files.SideBar.js",
+							"settings":
+							{
+								"buffer_size": 5690,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1692,
+										1692
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/var/www/eyeos/eyeos/apps/files/eyeos.files.IconView.js",
+							"settings":
+							{
+								"buffer_size": 27327,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4344,
+										4344
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1247.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 5,
+							"file": "/var/www/eyeos/eyeos/apps/files/eyeos.files.Model.js",
+							"settings":
+							{
+								"buffer_size": 2325,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1863,
+										1863
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 958.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 29.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,0,0,0,0,0,25,3626,1050,3840,1080",
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"format",
+						"apps/eyedocs/libs/format.js"
+					],
+					[
+						"handler/dragdrop.js",
+						"qx/event/handler/DragDrop.js"
+					],
+					[
+						"interfaces.php",
+						"eyeos/system/Frameworks/Applications/interfaces.php"
+					],
+					[
+						"requestqueue",
+						"qx/io/remote/RequestQueue.js"
+					],
+					[
+						"eyeosapplicationexecutable",
+						"eyeos/system/Frameworks/Applications/Executables/EyeosApplicationExecutable.php"
+					],
+					[
+						"exceptions",
+						"eyeos/system/kernel/libs/exceptions/subclasses/SecurityException.php"
+					],
+					[
+						"exceptions.php",
+						"eyeos/system/kernel/libs/exceptions/exceptions.php"
+					],
+					[
+						"icon.js",
+						"devtools/qooxdoo-1.5-sdk/framework/source/class/qx/ui/table/headerrenderer/Icon.js"
+					],
+					[
+						"iheaderre",
+						"qx/ui/table/IHeaderRenderer.js"
+					],
+					[
+						"default.js",
+						"qx/ui/table/headerrenderer/Default.js"
+					],
+					[
+						"config.json",
+						"devtools/eyeos/config.json"
+					],
+					[
+						"base.json",
+						"devtools/qooxdoo-1.5-sdk/tool/data/config/base.json"
+					],
+					[
+						"application.json",
+						"devtools/qooxdoo-1.5-sdk/tool/data/config/application.json"
+					],
+					[
+						"path.php",
+						"eyeos/system/kernel/libs/utf8/pathinfo.php"
+					],
+					[
+						"securitymanager.php",
+						"eyeos/system/kernel/services/Security/implementations/SecurityManager.php"
+					],
+					[
+						"virtualfile.php",
+						"www/eyeos/eyeos/system/kernel/services/FileSystem/implementations/libs/eyeOOFiles/classes/VirtualFile.php"
+					],
+					[
+						"eyeuserfile.php",
+						"www/eyeos/eyeos/system/kernel/services/FileSystem/implementations/libs/eyeOOFiles/classes/VirtualFile/UserFile.php"
+					],
+					[
+						"mmapmsg.php",
+						"eyeos/system/kernel/services/MMap/implementations/MMapMsg.php"
+					],
+					[
+						"virtualfile",
+						"eyeos/system/kernel/services/FileSystem/implementations/libs/eyeOOFiles/classes/VirtualFile.php"
+					],
+					[
+						"eyeuserfile",
+						"eyeos/system/kernel/services/FileSystem/implementations/libs/eyeOOFiles/classes/VirtualFile/UserFile.php"
+					],
+					[
+						"object.js",
+						"qx/core/Object.js"
+					],
+					[
+						"event.js",
+						"qx/bom/Event.js"
+					],
+					[
+						"data.js",
+						"qx/event/type/Data.js"
+					],
+					[
+						"button.js",
+						"qx/ui/form/Button.js"
+					],
+					[
+						"securitymanag",
+						"eyeos/system/conf/services/Security/SecurityManager.xml"
+					],
+					[
+						"eyeos_default",
+						"www/professional/eyeos/system/conf/services/UM/AuthConfigurations/eyeos_default.xml"
+					],
+					[
+						"sysyeminfoconta",
+						"apps/adminpaneltry/SystemInfoContainer.js"
+					],
+					[
+						"systeminfocontainer",
+						"apps/adminpanel/SystemInfoContainer.js"
+					],
+					[
+						"systeminfocont",
+						"apps/adminpanel/SystemInfoContainer.js"
+					],
+					[
+						"newgroupwindow.js",
+						"js/eyeos/ui/tabs/NewGroupWindow.js"
+					],
+					[
+						"treelocationcombobox",
+						"js/eyeos/ui/widgets/TreeLocationComboBox.js"
+					],
+					[
+						"shortcutmanage",
+						"js/eyeos/ui/core/ShortcutManager.js"
+					],
+					[
+						"standard",
+						"js/eyeos/ui/window/Standard.js"
+					],
+					[
+						"groupadminwindow",
+						"js/eyeos/ui/tabs/GroupAdminWindow.js"
+					],
+					[
+						"eyeapplication",
+						"js/eyeos.system.EyeApplication.js"
+					],
+					[
+						"dialogs.js",
+						"js/eyeos.dialogs.js"
+					],
+					[
+						"eye",
+						"js/eyeos.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+					[
+						"",
+						"/home/eyeos/projects/bio.sublime-project"
+					]
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": false,
+			"side_bar_visible": true,
+			"side_bar_width": 213.0,
+			"status_bar_visible": false,
+			"window_id": 2,
+			"workspace_name": "/home/eyeos/Projects/eyeos.sublime-project"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/eyeos/Projects/eyeos.sublime-project",
+			"/home/eyeos/Projects/source.sublime-project",
+			"/home/eyeos/Projects/bio.sublime-project"
+		]
+	}
+}

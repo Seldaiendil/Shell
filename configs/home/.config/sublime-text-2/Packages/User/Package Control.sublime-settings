@@ -1,0 +1,16 @@
+{
+	"auto_upgrade_last_run": 1325758728,
+	"installed_packages":
+	[
+		"Alignment",
+		"Clipboard History",
+		"CoffeeScript",
+		"Default File Type",
+		"Git",
+		"Jasmine",
+		"JsFormat",
+		"Nodejs",
+		"Package Control",
+		"sublime-jslint"
+	]
+}
