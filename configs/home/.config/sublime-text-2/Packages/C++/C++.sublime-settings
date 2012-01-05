@@ -1,4 +1,0 @@
-{
-	"word_wrap": false,
-	"extensions": ["cpp", "cc", "cxx", "c++", "h", "hpp", "hxx", "h++", "inl", "ipp"]
-}
