@@ -89,6 +89,7 @@ log="/tmp/install.$$.log"
 
 
 echo 'Configuring git...'
+git config --global color.ui true
 git config --global user.name "Seldaiendil" > $log
 git config --global user.email "seldaiendil2@gmail.com" > $log
 
